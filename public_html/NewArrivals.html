@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TheReviewStore</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            #more {display: none;}
+        </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">TheReviewStore</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home  </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Book Reviews
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <a class="dropdown-item" href="Fiction.html">Fiction</a>
+                            <a class="dropdown-item" href="NonFiction.html">Non-Fiction</a>
+                            <a class="dropdown-item" href="Childrens.html">Children's</a>
+                            <a class="dropdown-item" href="Romance.html">Romance</a>
+                            <a class="dropdown-item" href="Mystery.html">Mystery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="NewArrivals.html">New Arrivals <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Best Sellers</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link  " href ="YourReviews.html">Space for your reviews </a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="margin-bottom: 10px">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/Lost&Found.jpg" class="card-img-top" alt="LnF">
+
+                        <div class="card-body">
+                            <h2 class="card-title">Lost and Found by Danielle Steel</h2>
+                            <p>What might have been? 
+                                <br>
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#btn1">
+                                    Read More
+                                </button>
+
+
+                            <div class="modal fade" id="btn1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            This tantalizing question propels a woman on a cross-country adventure to reunite with the men she had loved and let go. 
+                                            Madison Allen is a renowned, career-driven photographer. Sifting through old photos in her fashionable New York fire-house apartment, she reflects on what could have been. 
+                                            Sheâ€™d had three men in her life who were very important to her in different ways, but it was the fourth love, her job, which always won in the end. 
+                                            Consumed by old memories and with a forced pause in her demanding schedule, Maddie embarks on a road trip.
+                                            She hopes to answer questions about the men sheâ€™d loved and might have married in the years after she was left alone with three young children.
+                                            As Maddie sets off to reconnect with her past in Boston, Chicago and Wyoming, she hopes to learn that the decisions she made long ago were the right ones.
+                                            And as her life comes into clearer focus, a new unexpected future takes shape, and is a valuable lesson to all of us who have ever wondered ˜what if?" From New York to Santa Fe, Lost and Found by Danielle Steel is a novel about first love, second chances and whether there is such a thing as happy ever after.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4" style="margin-bottom: 10px">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/CB.jpg" class="card-img-top" alt="CB">
+
+                        <div class="card-body">
+                            <h2 class="card-title">Celestial Bodies by Jokha Alharthi </h2>
+                            <p>"A richly layered, ambitious work that teems with human struggles and contradictions, providing fascinating insight into Omani history and society." 
+                                
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#btn2">
+                                    Read More
+                                </button>
+
+
+                            <div class="modal fade" id="btn2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            The book opens with a betrothal in a well-to-do Omani family. Mayya, a serious girl who excels at sewing, obediently marries the son of Merchant Sulayman although she's secretly in love with a young student just returned from England.
+                                            Later she surprises everyone by naming her firstborn daughter London. The story alternates between third-person chapters and ones narrated by Mayya's husband, Abdallah, a businessman whose childhood was marred by his father's cruelty and mother's mysterious death. 
+                                            Through the complex, interwoven histories of the two principal families and their households and their town of al-Awafi, we witness Oman's shift from a slave-owning, rural, deeply patriarchal society to one in which a girl with the unlikely name of London can become a doctor, marry for love, and obtain a divorce.
+                                            The great strength of the novel lies in the ways this change is shown not as a steady progression from old to new but as a far more complicated series of small-scale transitions.
+                                            Abdallah was largely raised by his father's slave Zarifa, whose mother gave birth to her on the day slavery was supposedly abolished at the 1926 Slavery Convention in Geneva. 
+                                            Zarifa is sold as a teenager by Shaykh Said to Merchant Sulayman and later married off to a slave kidnapped from Africa who screams "from the depths of his sleep, We are free people, free!" Both her husband and son leave Oman, and although Zarifa eventually follows, her heart remains in al-Awafi.
+                                            The narrative jumps among a large and clamorous cast of characters as well as back and forth in time, a technique that reinforces the sense of past and present overlapping. In an image that captures the tension between old and new, a family uses its satellite dish as a trough for livestock. 
+                                            Salima, Mayya's mother, herself a kidnapped teenage bride, thinks sadly as she prepares the next of her daughters for her traditional arranged marriage, "We raise them so that strangers can take them away." But the daughter in question, Mayya's sister Asma, welcomes wedlock, because "marriage was her identity document, her passport to a world wider than home." 
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4" style="margin-bottom: 10px">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/Ioweyou1.jpg" class="card-img-top" alt="IOweYouOne">
+
+                        <div class="card-body">
+                            <h2 class="card-title">I Owe You One by Sophie Kinsella</h2>
+                            <p>An IOU from a cute stranger gets complicated in this fun story about family, loyalty, and taking charge of your own life...
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#btn3">
+                                    Read More
+                                </button>
+
+
+                            <div class="modal fade" id="btn3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Fixie Farr, as her nickname suggests, has always loved to fix things. 
+                                            Most of her fixing is confined to her family's West London store, Farr’s, which she's run with her mother since her father’s death.
+                                            Her siblings, Jake and Nicole, are mostly useless, and Fixie knows it’s up to her to protect her dad’s legacy. When she’s at a coffee shop one day, a man asks her to watch his laptop. 
+                                            While he’s away, the ceiling above his table caves in, and Fixie can’t stop herself from leaping into danger to save the computer. 
+                                            Shocked by her willingness to save the day at the risk of her own safety, the laptop’s owner, Seb, promises her a favor and writes an IOU on a coffee sleeve.
+                                            Fixie never intends to cash in the favor—after all, she doesn’t know Seb at all, and she’s perfectly capable of handling everything herself—until the love of her life, Ryan, needs a job. Ryan was Jake’s best friend growing up, and Fixie’s had an enormous crush on him her whole life, even after he moved to LA to become a movie producer.
+                                            But now he’s back in London, and she wants him to stay…so she musters up the courage to contact Seb and redeem the IOU for a job for Ryan.
+                                            However, it turns out that she and Seb aren’t quite done with each other, and they keep finding more opportunities to owe each other favors.
+                                            As Fixie tries to work out her feelings for Seb, assert herself to her siblings, and save her family’s store, will she finally be able to stop fixing other people’s lives and start focusing on her own? Kinsella (Surprise Me, 2018, etc.) creates a charming story full of quirky characters and laugh-out-loud dialogue.
+                                            Fixie is a likable character, one readers will root for as she learns to take control of her own life.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
